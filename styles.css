@@ -44,6 +44,13 @@ a.link{
     color: white;
     padding: 15px;
   }
+
+  #scroller {
+    width: 98%;
+    height: 95%;
+    overflow:hidden;
+    overflow-y:scroll;
+  }
   
   /* On small screens, set height to 'auto' for sidenav and grid */
   @media screen and (max-width: 767px) {
